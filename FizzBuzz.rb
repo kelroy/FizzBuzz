@@ -2,12 +2,12 @@ puts 'Welcome To FizzBuzz'
 
 
 for i in (1..100)
-if index % 10 == 0
+if (index % 10 == 0) && (index % 3 != 0)
    puts “Fizz″
-elsif index % 3 == 0
+elsif (index % 3 == 0) && (index % 10 != 0)
    puts “Buzz″
-elsif 
+elsif (index % 3 == 0) && (index % 10 == 0)
    puts “FizzBuzz”
 else
-   puts
+   puts index
 end
